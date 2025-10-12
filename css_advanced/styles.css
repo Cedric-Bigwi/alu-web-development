@@ -1,0 +1,245 @@
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 10rem;
+    height: 5rem;
+}
+.background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    justify-content: space-between;
+}
+header div{
+    background-color: transparent;
+    color: white;
+    display: inline-flex;
+    padding-left: 7rem;
+}
+.nav-links{
+    text-decoration: none;
+    font-weight: 60;
+    font-size: 15px;
+    padding-left: 50rem;
+    gap: 40px;
+}
+.hero{
+    text-align: center;
+    color: white;
+}
+.hero-content h1 {
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-content p {
+    margin: -60px 10px 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hero-content button {
+    background-color: rgb(177, 78, 238);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.pros{
+    padding-top: 100px;
+    text-align: center;
+}
+.pros h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.pro-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.pro-card{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.pro-card h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.pro-card p{
+    font-size: 13px;
+    font-style: italic;
+    margin-top: -10px;
+}
+.pro-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.quote-card{
+    background-color: rgb(204, 124, 239);
+    display: flex;
+    height: 300px;
+}
+.quote-card img{
+    height: 150px;
+    border-radius: 50%;
+    padding: 4rem;
+    margin-left: 15rem;
+}
+blockquote{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: italic;
+    padding: 3rem;
+    margin-left: -3rem;
+}
+.quote-card h3{
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    margin-top: 8rem;
+    margin-left: -33rem;
+}
+.quote-card p {
+    color: white;
+    font-size: 15px;
+    margin-top: 10rem;
+    margin-left: -6.5rem;
+}
+.tutorials h1{
+    text-align: center;
+    padding: 5rem;
+}
+.tutorial-list{
+    display: flex;
+    gap: 2rem;
+    font-size: small;
+    margin-top: -2rem;
+    padding-bottom: 5rem;
+    padding-left: 12rem;
+    padding-right: 15rem;
+}
+.tutorial-card img{
+    height: 10rem;
+    width: 16rem;
+}
+.tutorial-card p{
+    max-height: 2rem;
+}
+.author{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.author img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+.rating img{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    border-style: ridge;
+}
+.membership{
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(1, 0, 31);
+    color: white;
+}
+.membership-benefits{
+    display: flex;
+    padding: 3rem;
+    gap: 2rem;
+}
+.membership button{
+    background-color: rgb(177, 78, 238);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.benefit-card img{
+    height: 5rem;
+    width: 8rem;
+}
+.faq h1{
+    text-align: center;
+    padding-top: 3rem;
+}
+.faq-list{
+    display: flex;
+    padding-left: 15rem;
+    padding-right: 10rem;
+    padding-bottom: 5rem;
+}
+.faq-column{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.faq-item p{
+    width: 20rem;
+}
+.footer-content{
+    background-color: rgb(1, 0, 31);
+    padding: 3rem;
+}
+.footer-content p{
+    color: gray;
+    text-align: center;
+}
+.footer-logo-social{
+    color: white;
+    display: flex;
+    gap: 10rem;
+}
+.footer-logo-social img{
+    padding-left: 5rem;
+    width: 10rem;
+    height: 5rem;
+    
+}
+.social-links{
+    padding-left: 50rem;
+}
+.fa {
+    padding: 1rem;
+    font-size: 1rem;
+    width: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: white;
+    color: black;
+}
+.fa-twitter {
+    background: white;
+    color: black;
+}
+.fa-instagram {
+    background: white;
+    color: black;
+}
